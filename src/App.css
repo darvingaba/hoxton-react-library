@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+body{
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.402);
+    padding: 1rem;
+    border-radius: 20px;
+}
+ul{
+    list-style: none;
+}
+.App{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-auto-flow: row;
+    height: 100%;
+}
+.button{
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.402);
+    padding: 2rem 3rem;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 14px;
+    color: rgb(0, 0, 0); 
+}
+.button:hover{
+    background-image: url("https://cdn.vox-cdn.com/thumbor/9j-s_MPUfWM4bWdZfPqxBxGkvlw=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22312759/rickroll_4k.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: rgb(255, 255, 255); 
+    transition: all 0.3s ease;
+}
+.inputContainer{
+    border: 1px solid black;
+    padding: 6px 8px;
+    border-radius: 5px;
+    display: grid;
+}
+.inp{
+    padding: .8rem 1.6rem;
+    border-radius: 12px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.19);
+}
+span{
+    margin-left: 2rem;
+    font-size: 2rem;
+}
+
+.checkbox{
+    display: grid;
+    grid-gap: .2rem;
+    /* border: 1px solid rgba(0, 0, 0, 0.379); */
+    padding: .8rem 1.6rem;
+    background-color: gray;
+    border-radius: 12px;
+}
+.checkb{
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 1rem;
+}
+.checkInp{
+    border: 1px solid rgba(0, 0, 0, 0.445);
+    padding: 6px 8px;
+    border-radius: 5px;
+    display: grid;
+    grid-auto-flow: column;
+    background-color: #fff;
+}
